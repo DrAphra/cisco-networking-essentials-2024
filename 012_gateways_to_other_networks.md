@@ -1,3 +1,6 @@
+
+##NETWORK BOUNDARIES
+
 **Wireless Router as DHCP Server**: The wireless router assigns IP addresses to devices (local hosts) on the internal network, usually using private IP addresses, which are not accessible from the internet.
 
 **Internal Network**: The devices connected to the wireless router (wired or wireless) form the internal or inside network, with IP addresses in the same range as the router’s internal IP.
