@@ -1,5 +1,5 @@
 
-##NETWORK BOUNDARIES
+## NETWORK BOUNDARIES
 
 Every host on a network must use the router as a gateway to other networks. Therefore, each host must know the IPv4 address of the router interface connected to the network where the host is attached. This address is known as the default gateway address. It can be either statically configured on the host or received dynamically by DHCP.
 The wireless router acts as a DHCP server for all local hosts attached to it, either by Ethernet cable or wirelessly. These local hosts are referred to as being located on an internal, or inside, network. When a wireless router is connected to the ISP, it acts like a DHCP client to receive the correct external network IPv4 address for the internet interface. ISPs usually provide an internet-routable address, which enables hosts connected to the wireless router to have access to the internet. The wireless router serves as the boundary between the local internal network and the external internet.
@@ -20,7 +20,7 @@ The wireless router acts as a DHCP server for all local hosts attached to it, ei
 
 This captures the core points related to how routers manage IP addresses and separate internal and external networks.
 
-##NETWORK ADDRESS TRANSLATION
+## NETWORK ADDRESS TRANSLATION
 
 The wireless router receives a public address from the ISP, which allows it to send and receive packets on the internet. It, in turn, provides private addresses to local network clients.
 
