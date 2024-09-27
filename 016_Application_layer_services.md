@@ -12,6 +12,7 @@ Every day, we utilize various services over networks and the internet for commun
 - file: file server stores corporate and user files in a central location. The client devices access these files with client software (e.g. Windows File Explorer).
 
 **Web Client and Web Server Interaction**
+
 - Web client retrieves a web page from the web server.
       - Web server listens for requests on port 80, TCP.
       - Web client uses URL www.learnip.com to initiate the request.
@@ -20,6 +21,7 @@ Every day, we utilize various services over networks and the internet for commun
       - IP address returned for www.learnip.com is 172.16.10.50.
   
 **TCP Connection Establishment**
+
 - TCP connection created between web server and web client.
       - Web client IP address set to 192.168.10.15 with a random port 5507.
       - Connection is between source 192.168.10.15:5507 and destination 172.16.10.50:80.
@@ -50,23 +52,36 @@ Fragment - #page155
 The most common internet services that people use regularly include:
 
 **Internet Searches**: Services like Google, Bing, and Yahoo! allow users to find information on various topics through search engines.
+
 **Social Media Sites**: Platforms such as Facebook, Twitter, Instagram, and LinkedIn enable users to connect, share, and communicate with others.
+
 **Video Streaming**: Services like YouTube, Netflix, Hulu, and Amazon Prime Video allow users to watch movies, TV shows, and other video content on demand.
+
 **Audio Streaming**: Music services like Spotify, Apple Music, and SoundCloud provide access to a vast library of songs and audio content for streaming.
+
 **Online Shopping**: E-commerce sites such as Amazon, eBay, and Walmart allow users to browse and purchase products online.
+
 **Email**: Email services like Gmail, Outlook, and Yahoo Mail facilitate sending and receiving messages and attachments over the internet.
+
 **Messaging**: Instant messaging apps such as WhatsApp, Slack, and Telegram enable real-time communication through text, voice, and video.
 
 Protocols Involved
 Each of these services relies on protocols from the TCP/IP protocol suite to ensure reliable communication between clients and servers. Some key protocols include:
 
 **DNS (Domain Name System)**: Resolves domain names into IP addresses for web access.
+
 **SSH (Secure Shell)**: Provides secure remote login and command execution.
+
 **DHCP (Dynamic Host Configuration Protocol)**: Automatically assigns IP addresses and network configurations.
+
 **FTP (File Transfer Protocol)**: Transfers files between client and server.
+
 **HTTP/HTTPS (Hypertext Transfer Protocol/Secure)**: Communicates web pages; HTTPS adds encryption for security.
+
 **SMTP (Simple Mail Transfer Protocol)v: Sends emails between clients and servers.
+
 **POP3/IMAP (Post Office Protocol 3/Internet Message Access Protocol)**: Retrieves and manages emails from a mail server; IMAP supports synchronization across devices.
+
 **TCP/UDP (Transmission Control Protocol/User Datagram Protocol)**: TCP ensures reliable, ordered delivery; UDP allows for faster, connectionless communication.
 
 These protocols ensure that data is accurately and efficiently transmitted, enabling seamless use of various internet services.
@@ -92,7 +107,9 @@ You can use the `nslookup` command to find the IP addresses associated with any 
 
 ## WEB CLIENTS AND SERVERS
 
-**HTTP (Hypertext Transfer Protocol)**: defines the rules for how information is transmitted between a client (the device requesting a web page) and a web server (the entity providing the web page). **HTML (Hypertext Markup Language)**: is the coding language used to display the content of the web page. Ittells the browser how to format the web page and what graphics and fonts to use.
+**HTTP (Hypertext Transfer Protocol)**: defines the rules for how information is transmitted between a client (the device requesting a web page) and a web server (the entity providing the web page). 
+
+**HTML (Hypertext Markup Language)**: is the coding language used to display the content of the web page. Ittells the browser how to format the web page and what graphics and fonts to use.
 
 The process begins when a client requests the web page at www.cisco.com. Since the internet operates using IP addresses rather than domain names, the client contacts a DNS server to resolve the domain name to its corresponding IP address. Once the IP address is obtained, the client can use HTTP to send a request to the web server at that IP address.
 
