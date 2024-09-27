@@ -77,6 +77,7 @@ DNS stands for Domain Name System Server. DNS server associates a domain name or
 Example: A user goes to the website www.cisco.com. The internet only understands IP addresses, not domain names.The system contacts a DNS server to find the associated IP address.
 
 **DNS Query Process**
+
 1- The system sends a query to the DNS server for the IP address of www.cisco.com.
 2- The DNS server looks up the domain name and finds the IP address.
 3- The DNS server returns the IP address to the host.
@@ -84,11 +85,13 @@ Example: A user goes to the website www.cisco.com. The internet only understands
       - The host can download the information to display the web page.
       
 **nslookup command**
+
 When configuring a device for network connectivity, it's important to include a DNS server address. In home networks, this is typically managed by the DHCP service on the router, which receives the DNS server address from the ISP. When you enter a website name (e.g., www.cisco.com), the DNS client on your device queries the DNS server for its corresponding IP address (e.g., 172.230.155.162) before making an HTTP request.
 
 You can use the `nslookup` command to find the IP addresses associated with any domain name. Practice using this command in both Windows and Linux environments.
 
 ## WEB CLIENTS AND SERVERS
+
 **HTTP (Hypertext Transfer Protocol)**: defines the rules for how information is transmitted between a client (the device requesting a web page) and a web server (the entity providing the web page). **HTML (Hypertext Markup Language)**: is the coding language used to display the content of the web page. Ittells the browser how to format the web page and what graphics and fonts to use.
 
 The process begins when a client requests the web page at www.cisco.com. Since the internet operates using IP addresses rather than domain names, the client contacts a DNS server to resolve the domain name to its corresponding IP address. Once the IP address is obtained, the client can use HTTP to send a request to the web server at that IP address.
@@ -143,6 +146,7 @@ A server that supports IMAP clients also receives and stores messages addressed 
 IMAP4 listens for client requests on port 143
 
 **TEXT MESSAGING**
+
 It's one of the most popular communication tools in use today. Text messaging software is built into many online applications, smartphone apps, and social media sites.
 
 Both clients can simultaneously send and receive messages.
@@ -152,6 +156,7 @@ Text messages may also be called instant messages, direct messages, private mess
 There are also a number of standalone text message clients such as Cisco Webex Teams, Microsoft Teams, WhatsApp, Facebook Messenger, and many others. These applications are available for a wide variety of operating systems and devices. A mobile version is typically offered. In addition to text messages, these clients support the transfer of documents, video, music, and audio files.
 
 **INTERNET PHONE CALLS**
+
 IP(internet phone) telephony makes use of Voice over IP (VoIP) technology, which converts analog voice signals into digital data. The voice data is encapsulated into IP packets which carry the phone call through the network.
 
 When the IP phone software has been installed, the user selects a unique name. This is so that calls can be received from other users. 
