@@ -41,4 +41,25 @@ SERVER SPRAWL: Dedicated servers often remained idle, wasting energy and space, 
 
 ## VIRTUALIZATION
 
+One major advantage of virtualization is overall reduced cost:
+
+Less equipment is required - Virtualization enables server consolidation, which requires fewer physical devices and lowers maintenance costs.
+Less energy is consumed - Consolidating servers lowers the monthly power and cooling costs.
+Less space is required - Server consolidation reduces the amount of required floor space.
+These are additional benefits of virtualization:
+
+Easier prototyping - Self-contained labs, operating on isolated networks, can be rapidly created for testing and prototyping network deployments.
+Faster server provisioning - Creating a virtual server is far faster than provisioning a physical server.
+Increased server uptime - Most server virtualization platforms now offer advanced redundant fault tolerance features.
+Improved disaster recovery - Most enterprise server virtualization platforms have software that can help test and automate failover before a disaster happens.
+Legacy support - Virtualization can extend the life of OSs and applications providing more time for organizations to migrate to newer solutions.
+
+**Hypervisors**
+
+A hypervisor is a program, firmware, or hardware that creates an abstraction layer over physical hardware to run virtual machines (VMs). Each VM operates as a separate system with access to the hardware components of the physical machine (e.g., CPUs, memory, storage, and network cards). Virtualization allows for the consolidation of multiple physical servers into VMs running on fewer physical servers.
+
+There are two types of hypervisors:
+
+Type 1 Hypervisor: Known as the "bare metal" approach, it installs directly on the physical hardware. It is commonly used in enterprise servers and data centers due to its efficiency, scalability, and performance.
+Type 2 Hypervisor: Also called a "hosted" approach, it runs on top of an existing OS (like Windows or macOS) and creates VMs. It is easier to set up but relies on the robustness of the host machine.
 
